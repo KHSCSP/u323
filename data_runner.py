@@ -1,6 +1,8 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# data downloaded April 2024; newer data may be different
+
 # 1, read in the data ----------------
 df = pd.read_csv("u32SOLNS/u323SOLNS/data.csv", header=0)    # header=0 means there is a header in row 0
 
